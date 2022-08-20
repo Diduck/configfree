@@ -1,0 +1,261 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #333340;
+}
+
+*{
+	scroll-behavior: smooth;
+}
+
+a{
+	text-decoration: none;
+      color: inherit;
+}
+
+#header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0;
+	margin: 0;
+	background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+	color: white;
+
+	/* border-bottom: solid 10px white; */
+
+}
+
+li{
+	list-style-type: none; 
+}
+
+
+
+h1{
+	font-family: "Source Sans Pro";
+    font-weight: 500;
+	font-size: 1000%;
+
+}
+
+.description{
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 200%;
+}
+
+
+
+
+.list-genre{
+	justify-content: space-around;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 300%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+@media screen and (min-device-width: 500px) {
+
+	.list-genre{
+		font-size: 30px;
+	}
+}
+
+.list-genre li{
+	padding: 2%;
+	margin: 1%;
+	border-radius: 20px;
+	background-color: brown;
+}
+
+
+.arrow{
+	border-left: solid white 6px;
+	border-bottom: solid white 6px;
+	width: 50px;
+	height: 50px;
+	margin-bottom: 3%;
+	transform: rotate(315deg);
+}
+
+@media screen and (min-device-width: 500px) {
+
+	.arrow{
+		margin-bottom: 50px;
+		width: 30px;
+		height: 30px;
+		border-left: solid white 2px;
+		border-bottom: solid white 2px;
+	}
+}
+
+#support-me{
+	display: flex;
+	justify-content: space-around;
+	padding: 2%;
+	align-items: center;
+	background-color: #fff;
+
+}
+
+.discord{
+	background-color: #404eed;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 300%;
+	color: white;
+	border-radius: 30px;
+	height: 100px;
+	padding: 10px;
+}
+
+
+
+
+
+.bi-discord{
+	color: white;
+	width: 70%;
+	height: 70%;
+	padding-right: 10px;
+}
+
+
+@media screen and (min-device-width:500px){
+
+	.discord{
+		font-size: 200%;
+		border-radius: 20px;
+		height: 60px;
+	}
+
+	.bi-discord{
+		width: 50%;
+		height: 50%;
+	}
+}
+
+
+.paypal{
+	background-color: #25eeee;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+	border-radius: 30px;
+	height: 100px;
+	padding: 10px;
+}
+
+.bi-paypal{
+	width: 300px;
+	
+}
+
+
+@media screen and (min-device-width:500px){
+
+	.paypal{
+		font-size: 200%;
+		border-radius: 20px;
+		height: 60px;
+	}
+
+	.bi-paypal{
+		width: 150px;
+	}
+}
+
+.section-card{
+
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+
+}
+
+h2{
+	text-align: center;
+
+}
+
+.title-section{
+	color: white;
+	font-size: 400%;
+	padding-top: 10px;
+}
+
+.section-card a{
+	margin: 2%;
+}
+
+.card{
+
+	background-color: white;
+	width: 400px;
+	height: 20%;
+	padding: 2%;
+	box-shadow: 3px 3px 3px black;
+	border-radius: 20px;
+	justify-content: center;
+}
+
+
+
+.preview-card{
+	height: 500px;
+	width: 400px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 20px;
+}
+
+.title-card{
+	color: black;
+	text-align: center;
+	font-size: 300%;
+	
+}
+
+
+@media screen and (min-device-width: 700px){
+
+	.section-card{
+		flex-flow: row wrap;
+
+	}
+
+	.title-section{
+		font-size:200%;
+	}
+
+	.card{
+		width: 200px;
+		height: 10%;
+		padding: 10px;
+	}
+
+
+	.preview-card{
+		height: 250px;
+		width: 200px;
+		border-radius: 10px;
+	}
+
+	.title-card{
+		font-size: 150%;
+	}
+	
+}
+
+
